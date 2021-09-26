@@ -1,0 +1,87 @@
+
+html, body {
+    height: 100%;
+}
+
+body{
+    text-rendering: optimizeLegibility;
+    font-weight: bold; 
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #999;
+}
+
+.navbar{
+    background-color: #020111;
+}
+
+.navbar-logo {
+    width:70px;
+    height:70px;
+}
+
+.logo {
+    width:130px;
+    height:130px;
+}
+
+.btn {
+    width: 160px;
+    height: 44px;
+}
+
+.btn-green {
+    background-color: #014E57;
+    border-radius: 5px;
+    padding: auto 100px;
+    color: white;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #014E57;
+}
+
+#cover{ 
+    background: url(../img/cover.png) center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#cover-caption {
+    font-size: 1.4rem;
+    font-weight:200;
+    max-width:60rem;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    background: black;
+    opacity: 0.7;
+    height: auto;
+    width: 40%;
+    min-width: 540px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.sign-in-form {
+    padding: 5% 5%;
+}
+
+.login-form {
+    align-items:flex-start;
+}
